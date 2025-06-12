@@ -18,8 +18,8 @@
 // ✅ SOLUTION:
 
 function separateTypes(input) {
-    result = {};
-    for(i of input){
+    let result = {};
+    for(let i of input){
         if(!(typeof(i) in result)){
             result[typeof(i)] = [i];
         } else {
