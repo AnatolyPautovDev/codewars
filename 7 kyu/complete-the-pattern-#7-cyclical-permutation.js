@@ -30,7 +30,7 @@ function pattern(n) {
     res.push([...temp])
   }
 
-  res = res.map((arr, i) => {
+  res = res.map((arr) => {
     let str = ''
     arr.forEach(n => str +=n )
 
